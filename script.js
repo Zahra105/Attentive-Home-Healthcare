@@ -438,10 +438,10 @@ window.addEventListener('load', () => {
 // Preload images for better performance
 function preloadImages() {
     const imageUrls = [
-        'assets/hero-slide-1.jpg',
-        'assets/hero-slide-2.jpg',
-        'assets/hero-slide-3.jpg',
-        'assets/companionship.jpg',
+        "/Attentive-Home-Healthcare/companionship.jpg" alt="companionship image",
+        "/Attentive-Home-Healthcare/pressureCheck2.jpg" alt="pressureCheck image",
+        '"/Attentive-Home-Healthcare/storypic2.jpg" alt="storypic image"',
+        '"/Attentive-Home-Healthcare/sick pic.jpg" alt="sick image",
         'assets/team-photo.jpg',
         'assets/services.jpg'
     ];
@@ -453,4 +453,5 @@ function preloadImages() {
 }
 
 // Call preload on page load
+
 window.addEventListener('load', preloadImages);
