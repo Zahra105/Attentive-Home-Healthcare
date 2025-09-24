@@ -66,10 +66,7 @@ body {
     width: 100px;
     display: flex;
     gap: 10px;
-    /*height: 80px;*/
-    max-width: 100%;
-    height: auto;
-    display: block;
+    height: 80px;
 
 }
 
@@ -946,4 +943,5 @@ footer {
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
+
 
