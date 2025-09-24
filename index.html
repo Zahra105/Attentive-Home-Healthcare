@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attentive Home Healthcare</title>
+    <meta name="description" content="Compassionate, reliable, and personalized homecare services that foster independence, well-being, and peace of mind in the comfort of your own home.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="C:\Users\liban\OneDrive\Desktop\homeCare\example - Copy\logo.png" alt="Attentive Health Homecare Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">Attentive Home</span>
+                    <span class="logo-subtitle">Healthcare</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="testimonials.html" class="nav-link">Testimonials</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="faqs.html" class="nav-link">FAQ</a>
+                <button class="nav-btn">Get Started</button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img src="C:\Users\liban\OneDrive\Desktop\homeCare\example - Copy\companionship.jpg" alt="Elderly woman receiving compassionate home care">
+                </div>
+                <div class="carousel-slide">
+                    <img src="C:\Users\liban\OneDrive\Desktop\homeCare\example - Copy\meal-prep.jpg" alt="Professional healthcare worker helping senior man">
+                </div>
+                <div class="carousel-slide">
+                    <img src="C:\Users\liban\OneDrive\Desktop\homeCare\example\storypic2.jpg" alt="Happy family moment with elderly grandmother and caregiver">
+                </div>
+            </div>
+            <button class="carousel-btn carousel-prev" onclick="previousSlide()">‹</button>
+            <button class="carousel-btn carousel-next" onclick="nextSlide()">›</button>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Attentive Home
+                <span class="hero-accent">Healthcare</span>
+            </h1>
+            <p class="hero-subtitle">Because your care deserves our full attention.</p>
+            <p class="hero-description">
+                At Attentive Home, we believe that comfort, dignity, and independence should never be compromised. 
+                That's why we provide compassionate, reliable, and personalized care in the place you feel most at ease—your home.
+            </p>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary">Discover Our Services</a>
+                <a href="contact.html" class="btn btn-outline">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Attentive Home?</h2>
+                <p class="section-description">
+                    We're not just a service provider. we're your partner in care, dedicated to enhancing quality of life.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="care-card feature-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Compassionate Care</h3>
+                    <p class="feature-description">We serve with empathy and kindness, treating every client like family.</p>
+                </div>
+
+                <div class="care-card feature-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Trusted & Reliable</h3>
+                    <p class="feature-description">Professional expertise you can depend on, with the highest standards of care.</p>
+                </div>
+
+                <div class="care-card feature-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="m22 21-2-2m2 2v-5h-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Personalized Service</h3>
+                    <p class="feature-description">Care plans tailored to your unique needs and preferences.</p>
+                </div>
+
+                <div class="care-card feature-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">24/7 Availability</h3>
+                    <p class="feature-description">Flexible scheduling from a few hours a week to around-the-clock care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview-section">
+        <div class="container">
+            <div class="about-preview-grid">
+                <div>
+                    <h2 class="section-title">Care That Feels Like Family</h2>
+                    <p class="about-description">
+                        Whether you or a loved one needs daily support, companionship, or specialized assistance, 
+                        our team is here to deliver care that feels like family. With us, you're not just a client—you're 
+                        part of the Attentive Health family.
+                    </p>
+                    <div class="about-points">
+                        <div class="about-point">
+                            <div class="point-dot primary"></div>
+                            <span>Professional expertise with heartfelt compassion</span>
+                        </div>
+                        <div class="about-point">
+                            <div class="point-dot secondary"></div>
+                            <span>Personalized care plans for every individual</span>
+                        </div>
+                        <div class="about-point">
+                            <div class="point-dot primary"></div>
+                            <span>Peace of mind for families</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn-hero">Learn More About Us</a>
+                </div>
+                <div>
+                    <div class="care-card testimonial-preview">
+                        <blockquote class="testimonial-quote">
+                            "The caregivers at Attentive Health Homecare treat my mom like she's their own family. 
+                            She's happier, more engaged, and we finally feel at ease."
+                        </blockquote>
+                        <cite class="testimonial-cite">— Sarah M.</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer Section -->
+<footer>
+        <div class="containr">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <img src="C:\Users\liban\OneDrive\Desktop\homeCare\example\logo.png" alt="logo" class="logo"></a>
+                    <p>Providing compassionate, professional homecare services that prioritize comfort, dignity, and independence.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Personal Care</a></li>
+                        <li><a href="services.html">Companionship</a></li>
+                        <li><a href="services.html">Medication Management</a></li>
+                        <li><a href="services.html">Meal Preparation</a></li>
+                        <li><a href="services.html">Light Housekeeping</a></li>
+                        <li><a href="services.html">Specialized Care</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 815 Superior Ave. East, Suite 1618, PMB 1960, Cleveland OH 44114.</li>
+                        <li><i class="fas fa-phone-alt"></i> (614)6804434 </li>
+                        <li><i class="fas fa-envelope"></i> attentivehhc3@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8am-6pm, Sat: 9am-2pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Attentive Home healthcare Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
