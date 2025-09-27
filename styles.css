@@ -176,6 +176,7 @@ body {
 .nav-link:hover::after,
 .nav-link.active::after {
     width: 100%;
+    color:blue;
 }
 
 .nav-btn {
@@ -943,5 +944,6 @@ footer {
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
+
 
 
