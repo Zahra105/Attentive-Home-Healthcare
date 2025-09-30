@@ -996,6 +996,18 @@ footer {
 }
 
 /* image column */
+.team-image {
+  flex: 1 1 350px;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+.team-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
 .services-image {
   flex: 1 1 350px;
   max-width: 500px;
@@ -1024,5 +1036,6 @@ footer {
     margin-right: auto;
   }
 }
+
 
 
