@@ -1,48 +1,52 @@
-/* Attentive Health Homecare Styles */
 
-/* CSS Variables (Design System) */
+/* ===============================
+   CSS Variables (Design System)
+   =============================== */
 :root {
-    /* Healthcare Primary Colors */
+    /* Brand Colors */
     --background: hsl(0, 0%, 100%);
     --foreground: hsl(215, 25%, 15%);
-    
+
     --card: hsl(0, 0%, 100%);
     --card-foreground: hsl(215, 25%, 15%);
-    
-    /* Medical Blue Primary */
-    --primary: #1a4c75;
+
+    --primary: #1a4c75; /* Medical Blue */
     --primary-foreground: hsl(0, 0%, 98%);
-    
-    /* Caring Teal Secondary */
-    --secondary: hsl(174, 72%, 56%);
+
+    --secondary: hsl(174, 72%, 56%); /* Caring Teal */
     --secondary-foreground: hsl(0, 0%, 98%);
-    
-    /* Soft Medical Grays */
-    --muted: hsl(213, 20%, 96%);
+
+    --muted: hsl(213, 20%, 96%); /* Soft Medical Gray */
     --muted-foreground: hsl(215, 16%, 47%);
-    
-    /* Warm Care Accent */
+
     --accent: hsl(174, 44%, 90%);
     --accent-foreground: hsl(174, 72%, 25%);
-    
+
     --border: hsl(213, 27%, 90%);
     --input: hsl(213, 27%, 90%);
     --ring: #1a4c75;
-    
-    /* Healthcare Gradients */
+
+    /* Gradients */
     --gradient-primary: linear-gradient(135deg, #1a4c75, hsl(174, 72%, 56%));
-    --gradient-hero: linear-gradient(135deg, hsl(213, 93%, 50%, 0.05), hsl(174, 72%, 56%, 0.05));
+    --gradient-hero: linear-gradient(135deg, hsla(213, 93%, 50%, 0.05), hsla(174, 72%, 56%, 0.05));
     --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%), hsl(213, 20%, 98%));
-    
-    /* Healthcare Shadows */
-    --shadow-care: 0 4px 6px -1px hsl(213, 93%, 50%, 0.1), 0 2px 4px -1px hsl(213, 93%, 50%, 0.06);
-    --shadow-gentle: 0 10px 25px -5px hsl(213, 93%, 50%, 0.1), 0 4px 6px -2px hsl(213, 93%, 50%, 0.05);
-    --shadow-testimonial: 0 20px 40px -12px hsl(213, 93%, 50%, 0.15);
-    
+
+    /* Shadows */
+    --shadow-care: 0 4px 6px -1px hsla(213, 93%, 50%, 0.1), 
+                   0 2px 4px -1px hsla(213, 93%, 50%, 0.06);
+
+    --shadow-gentle: 0 10px 25px -5px hsla(213, 93%, 50%, 0.1), 
+                     0 4px 6px -2px hsla(213, 93%, 50%, 0.05);
+
+    --shadow-testimonial: 0 20px 40px -12px hsla(213, 93%, 50%, 0.15);
+
+    /* Global Radius */
     --radius: 0.75rem;
 }
 
-/* Base Styles */
+/* ===============================
+   Base Styles
+   =============================== */
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +58,6 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     line-height: 1.6;
-    background-color: aliceblue;
 }
 
 .container {
@@ -62,6 +65,7 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
 }
+
 .logo {
     width: 100px;
     display: flex;
@@ -691,31 +695,6 @@ body {
     background-color: var(--secondary);
 }
 
-.testimonial-preview {
-    text-align: center;
-    padding: 2rem;
-}
-
-.testimonial-quote {
-    font-size: 1.125rem;
-    color: var(--foreground);
-    font-style: italic;
-    margin-bottom: 1rem;
-}
-
-.testimonial-cite {
-    color: var(--primary);
-    font-weight: 600;
-}
-.containr {
-    width: 95%;
-    max-width: 1200px;
-    max-height: fit-content;
-    margin: 0 auto;
-    color: white;
-    
-}
-
 
 footer {
     background: #1a4c75;
@@ -1048,6 +1027,7 @@ footer {
     margin-right: auto;
   }
 }
+
 
 
 
