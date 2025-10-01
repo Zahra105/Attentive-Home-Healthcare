@@ -66,13 +66,7 @@ body {
     padding: 0 1rem;
 }
 
-.logo {
-    width: 100px;
-    display: flex;
-    gap: 10px;
-    height: 80px;
 
-}
 
 @media (min-width: 640px) {
     .container {
@@ -1027,6 +1021,7 @@ footer {
     margin-right: auto;
   }
 }
+
 
 
 
