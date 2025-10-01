@@ -563,6 +563,18 @@ body {
 .bg-primary .section-header p {
     color: rgba(255, 255, 255, 0.9);
 }
+ .homey-image {
+  flex: 1 1 350px;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+.homey-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
 
 /* Features Section */
 .features-section {
@@ -1036,6 +1048,7 @@ footer {
     margin-right: auto;
   }
 }
+
 
 
 
